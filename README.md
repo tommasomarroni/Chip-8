@@ -17,8 +17,8 @@ Chip-48 later begat Super Chip-48, a modification of Chip-48 which allowed highe
 Chip-48 inspired a whole new crop of Chip-8 interpreters for various platforms, including MS-DOS, Windows 3.1, Amiga, HP48, MSX, Adam, and ColecoVision.
 
 pip install -r requirements.txt
-python  main.py <chip-8 ROM>
-ex: python  main.py games/brix
+python main.py <chip-8 ROM>
+ex: python main.py games/brix
 
 ## References
 - [Cowgod's Chip-8 - Technical Reference v1.0](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM)
