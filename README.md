@@ -18,17 +18,26 @@ Chip-48 inspired a whole new crop of Chip-8 interpreters for various platforms, 
 
 ## Installing
 
-1. Install pip and git.
-sudo apt-get install python-pip
-2. Clone (or download) the Chip 8 Emulator:
+1. Install `pip` and `git`.
+2. Clone (or download) the Chip-8 emulator:
 ```
-git clone https://github.com/tommasomarroni/Chip8Python.git
+git clone https://github.com/tommasomarroni/Chip-8.git
+```
+3. Install the required dependencies:
 ```
 pip install -r requirements.txt
+```
 
 ## Running
+
+Run with:
+```
 python main.py <chip-8 ROM>
-ex: python main.py games/brix
+```
+where <chip-8 ROM> is the full path to the Chip-8 ROM. Example:
+```
+python main.py games/brix
+```
 
 ## References
 - [Cowgod's Chip-8 - Technical Reference v1.0](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM)
