@@ -34,7 +34,9 @@ Run with:
 ```
 python main.py <chip-8 ROM>
 ```
-where <chip-8 ROM> is the full path to the Chip-8 ROM. Example:
+where <chip-8 ROM> is the full path to the Chip-8 ROM.
+
+Example:
 ```
 python main.py games/brix
 ```
