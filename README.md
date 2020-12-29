@@ -1,6 +1,6 @@
 # Chip-8
 
-A Chip-8 emulator in Python 
+A Chip-8 emulator in Python.
 
 ![](docs/chip8.gif)
 
